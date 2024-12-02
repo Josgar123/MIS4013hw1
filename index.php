@@ -33,7 +33,7 @@
               </li>
             </ul>
 
-      <button onclick = "showMessage()"> "Knowing about our web" </button>
+      <button onclick = "showMessage()"> "Click Me" </button>
       <script>
           function showMessage() {
               alert("Want to know more about our pages?");
