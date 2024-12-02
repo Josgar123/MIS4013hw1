@@ -36,11 +36,12 @@
       <button onclick = "showMessage()"> "Click Me" </button>
       <script>
         function showMessage() {
+            alert("What is your favorite movie?");
           // Change heading:
-document.getElementById("Movie Name").innerHTML = "Movie Name";
+document.getElementById("Movie Name").value = "tomandjerry";
 
 // Change paragraph:
-document.getElementById("Favorite").innerHTML = "Favorite Range";
+document.getElementById("Favorite").value = "django";
         }
       </script>
       </div>
