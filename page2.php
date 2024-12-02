@@ -41,9 +41,10 @@ document.getElementById("Movie Name").innerHTML = "Movie Name";
 
 // Change paragraph:
 document.getElementById("Favorite").innerHTML = "Favorite Range";
+        }
       </script>
       </div>
-}
+
     
   </body>
 
