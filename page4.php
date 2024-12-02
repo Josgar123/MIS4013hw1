@@ -23,19 +23,19 @@
       
    <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link " href="index.html">Page 1</a>
+        <a class="nav-link " href="index.php">Page 1</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="page2.html">Page 2</a>
+        <a class="nav-link" href="page2.php">Page 2</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="page3.html">Page 3</a>
+        <a class="nav-link" href="page3.php">Page 3</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="page4.html">Page 4</a>
+        <a class="nav-link active" aria-current="page" href="page4.php">Page 4</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="page5.html">Page 5</a>
+        <a class="nav-link" href="page5.php">Page 5</a>
       </li>
     </ul>
   </br>
