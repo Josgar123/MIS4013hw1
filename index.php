@@ -37,10 +37,9 @@
       </div>
     
       <script>
-          function myFunction() {
+          function showMessage() {
               alert("Want to know more about our pages?");
               document.getElementById("demo").innerHTML = "Welcome, hello!";
-              document.getElementById("demo2").innerHTML = "Nice day today";
             }
       </script>
     
