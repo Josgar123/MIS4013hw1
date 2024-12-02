@@ -38,10 +38,10 @@
         function showMessage() {
             alert("What is your favorite movie?");
           // Change heading:
-document.getElementById("Movie Name").value = "tomandjerry";
+document.getElementById("Movie Name").innerHTML = "tomandjerry";
 
 // Change paragraph:
-document.getElementById("Favorite").value = "django";
+document.getElementById("Favorite").innerHTML = "django";
         }
       </script>
       </div>
