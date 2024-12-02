@@ -35,6 +35,7 @@
 
       <button onclick = "showMessage()"> "Click Me" </button>
       <script>
+        function showMessage() {
           // Change heading:
 document.getElementById("Movie Name").innerHTML = "Movie Name";
 
@@ -42,7 +43,7 @@ document.getElementById("Movie Name").innerHTML = "Movie Name";
 document.getElementById("Favorite").innerHTML = "Favorite Range";
       </script>
       </div>
-
+}
     
   </body>
 
