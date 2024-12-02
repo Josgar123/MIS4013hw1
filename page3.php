@@ -20,10 +20,10 @@
                 <a class="nav-link " href="index.php"">Page 1</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="page2.php">Page 2</a>
+                <a class="nav-link active" href="page2.php">Page 2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="page3.php"">Page 3</a>
+                <a class="nav-link active" aria-current="page" href="page3.php"">Page 3</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="page4.php"">Page 4</a>
@@ -33,7 +33,7 @@
               </li>
             </ul>
 
-      <button onclick = "getLocation()"> "Click Me" </button>
+      <button onclick = "getLocation()"> "Learn more" </button>
       <script>
         function getLocation() 
         { if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); } 
