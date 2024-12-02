@@ -41,13 +41,7 @@
             }
       </script>
       </div>
-    
-      <script>
-          function showMessage() {
-              alert("Want to know more about our pages?");
-              document.getElementById("demo").innerHTML = "Welcome, hello!";
-            }
-      </script>
+
     
   </body>
 
