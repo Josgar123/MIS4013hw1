@@ -12,7 +12,7 @@
     <title>Bootstrap demo</title>
 
     <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+ <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
   </head>
 
   <body>
@@ -35,11 +35,12 @@
         <a class="nav-link" href="page4.html">Page 4</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="page5.html">Page 5</a>
+        <a class="nav-link" aria-current="page" href="page5.html">Page 5</a>
       </li>
     </ul>
-  </br>
-      
+   <div id="scatterChart" style="width:700px; height:400px;"></div>    
+          <script>
+                const scatterChart = echarts.init(document.getElementById('scatterChart')); 
    option = {
   xAxis: {
     data: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -52,7 +53,8 @@
     }
   ]
 };
-
+scatterChart.setOption(option);
+          </script>
     <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
   </div>
