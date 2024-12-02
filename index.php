@@ -12,7 +12,7 @@
 
     <div class="container">
       
-        <h1>Welcome to MIS4013hw1</h1>
+        <h1>Welcome to MIS4013hw5</h1>
           
            <ul class="nav nav-tabs">
               <li class="nav-item">
@@ -31,8 +31,6 @@
                 <a class="nav-link" href="page5.php"">Page 5</a>
               </li>
             </ul>
-    
-       <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
       </div>
     
